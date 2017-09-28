@@ -1,0 +1,16 @@
+{
+    "name": "juansorondo/yii2-drift",
+    "description": "Drift live chat extension for Yii2",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Juan Sorondo",
+            "email": "juanisorondo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "DriftWidget.php"
+        ]
+    }
+}
