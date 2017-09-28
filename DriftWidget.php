@@ -11,7 +11,7 @@ class DriftWidget extends Widget {
 
     public function run() {
         $js = $this->render('drift', ['code' => $this->code]);
-        $this->view->registerJsX($js, View::POS_HEAD);
+        $this->view->registerJs($js, View::POS_HEAD);
         return '';
     }
 
